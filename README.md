@@ -4,3 +4,5 @@ used online resources like chatgpt to find out why my url wouldnt build corretly
 from urllib.parse import quote 
 I then needed to make sure I use the quote function on the filter_query like so 
 quote_query = quote(filter_query)
+
+I see after I did this that there was another way to do it as shown with the movie_dataframe section 
